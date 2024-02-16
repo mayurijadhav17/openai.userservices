@@ -1,0 +1,21 @@
+openai:
+  chatgtp:
+    api:
+      key: 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
+      url: https://api.openai.com/v1/chat/completions
+    max-completions: 1
+    max_tokens: 100
+    model: gpt-3.5-turbo
+    temperature: 0
+
+    spring:
+      datasource:
+        url: jdbc:h2:mem:testdb
+        username: sa
+        password:
+        driverclass: org.h2.Driver
+      jpa:
+        hibernate:
+          ddl-auto: update
+      h2:
+        console.enabled: true
