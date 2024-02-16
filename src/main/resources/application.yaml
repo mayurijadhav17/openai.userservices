@@ -1,7 +1,7 @@
 openai:
   chatgtp:
     api:
-      key: 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
+      key: 
       url: https://api.openai.com/v1/chat/completions
     max-completions: 1
     max_tokens: 100
